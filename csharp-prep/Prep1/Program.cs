@@ -20,7 +20,7 @@ class Program
 
         int count = mylist.count();
 
-        counsle.writeline($"The counnt is: {count}");
+        Console.WriteLine($"The counnt is: {count}");
 
         int total = 0;
         for (int i = 0; i < mylist.Count; i++)

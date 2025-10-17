@@ -1,24 +1,24 @@
 using System;
 
-public class fraction
+public class Fraction
 {
 
     private int _Numerator;
     private int _Denominator;
 
-    public fraction()
+    public Fraction()
     {
         _Numerator = 1;
         _Denominator = 1;
     }
 
-    public fraction(int Numerator)
+    public Fraction(int Numerator)
     {
         _Numerator = Numerator;
         _Denominator = 1;
     }
 
-    public fraction(int Numerator, int Denominator)
+    public Fraction(int Numerator, int Denominator)
     {
         _Numerator = Numerator;
         _Denominator = Denominator;

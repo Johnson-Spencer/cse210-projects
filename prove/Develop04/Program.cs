@@ -32,7 +32,7 @@ class Program
             }
             else if (choice == "4")
             {
-                Console.WriteLine("Goodbye!");
+                Console.WriteLine("Thanks for stoppin by, have a great day! Goodbye!");
                 return;
             }
             else
